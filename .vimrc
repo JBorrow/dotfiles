@@ -9,6 +9,8 @@ call vundle#begin()
 
 Plugin 'flazz/vim-colorschemes'
 Plugin 'StanAngeloff/php.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " Vundle Plugins End "
 call vundle#end()
@@ -23,3 +25,13 @@ syntax enable
 syntax on
 set number
 colorscheme solarized
+
+" Powerline setup "
+set guifont=Inconsolata\ for\ Powerline\ 10
+set laststatus=2
+
+" Easier Split Navigations "
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
