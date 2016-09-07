@@ -11,6 +11,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'hdima/python-syntax'
 
 " Vundle Plugins End "
 call vundle#end()
